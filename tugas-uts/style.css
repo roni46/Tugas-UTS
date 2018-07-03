@@ -198,7 +198,7 @@ body {
 	text-decoration : none;
 }
 .isiposting a:hover{
-	color : yellow;
+	color : blue;
 }
 
 
@@ -243,6 +243,9 @@ body {
 	color : black;
 	font-size : 20px;
 	font-weight : bold;
+}
+.isipostingan11 a:hover{
+	color : blue;
 }
 .gambarposting {
 	text-decoration: justify;
