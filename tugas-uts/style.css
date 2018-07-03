@@ -1,0 +1,308 @@
+/*body*/
+body {
+	background-color : black;
+	text-align : center;
+	font-family : verdana, tahoma, helvestica;
+	font-size : 12px;
+}
+
+
+/*layout utama*/
+#layout {
+	background : white;
+	width : 980px;
+	margin : auto;
+	text-align : left;
+	padding : 2px;
+}
+#header {
+	width : 100%;
+	height : 130px;
+	background-color : #02a2d8;
+	position : right;
+}
+.header{
+	width	: 100%;
+	height	: 130px;
+}
+
+
+/*menu utama*/
+#menu {
+	width : 100%;
+	height :20;
+	background-color : black;
+	position : relative;
+}
+#menu ul {
+	width	: 50%;
+	height	: 25px;
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+#menu ul li {
+	
+	float : left;
+}
+#menu ul li a {
+	float	: left;
+	color	: #d4d4d4;
+	padding : 2px 20px;
+	text-decoration	: none;
+	background : black;
+	border-left : 1px solid #3c4042;
+	border-right : 1px solid #3c4042;
+	text-shadow	: 0 -1px 1px rgbs (0, 0, 0, 0, 6);
+}
+#menu ul li a:hover {
+	color : white;
+	background : #3c4042;
+}
+
+
+/*runningtext*/
+#runningtext {
+	width	: 100%;
+	height	: 20px;
+	padding-top	: 2px;
+	margin	: 2px 0 2px 0;
+	background-color	: blue;
+	color	: white;
+	position	: relative;
+}
+
+
+/*sidebar*/
+#sidebar {
+	padding	: 5px;
+	width	:27%;
+	background-color	: #d3beaa;
+	position	: relative;
+	float	: right;
+	/*garis putus*/
+	border-style : dotted;
+	border-width : 1px;
+}
+/*widget sidebar*/
+.widged {
+	width	: 99%;
+	background-bottom	: 5px;
+	background	: #ffffff;
+	border-top	: 1px solid #DFDFDF;
+	border-bottom : 1px solid #DFDFDF;
+	border-right 	: 1px solid #DFDFDF;
+	border-left	: 1px solid #DFDFDF;
+	font-size : 100%;
+	margin	: 0px 0px 5px 0px;
+}
+/*pengaturan iklan pd gambar widged*/
+.gambariklan	{
+	width	: 99%;
+	height : 381px;
+}
+/*huruf dan judul widget*/
+.judulwidged {
+	background		: #1669b7;
+	padding 		: 5px 10px 5px 10px;
+	margin 			: 0px 0px 0px 0px;
+	text-align 		: center;
+	color 			: white;
+	font-weight 	: bold;
+	font-size 		: 15px;
+	margin-bottom 	: 5px;
+}
+.widged ul {
+	margin 			: 0px 0px 0px 0px;
+	padding 		: 0px 0px 0px 0px;
+	list-style-type : none;
+}
+.widged li {
+	padding 			: 0px 0px 0px 0px;
+	background-position : left;
+	background-repeat 	: no-repeat;
+	color				: #333333;
+}
+.widged li a {
+	color 			: #333333;
+	border-bottom 	: 1px dotted #cccccc;
+	text-decoration : none;
+	display 		: block;
+	margin-bottom 	: 5px;
+	padding 		: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color : blue;
+}
+
+
+/*isi*/
+#isi { 
+	padding : 5px;
+	width : 70%;
+	height : auto;
+	background-color : blue;
+	position : relative;
+	margin-top : 5px;
+}
+.isiposting {
+	background-color : red;
+	width : 98%;
+	height : 120px;
+	margin-bottom : 5px;
+	padding : 5px;
+}
+.table{
+	color: white;
+}
+.pertanyaan h2{
+	color: red;
+	text-decoration-style: bold;
+}
+
+.gambardepan {
+	float : right	;
+	height : 100px;
+	width : 100px;
+	margin-right : 5px;
+	margin-top : 3px;
+	padding : 1px;
+	border : 1px solid #dddddd
+}
+.gambardepan1 {
+	float : left;
+	height : 120px;
+	width : 485px;
+	margin-right : 1px;
+	margin-top : 3px;
+	padding : 1px;
+	border : 1px solid #dddddd
+}
+.gambardepan2 {
+	float : right;
+	height : 120px;
+	width : 485px;
+	margin-right : 1px;
+	margin-top : 3px;
+	padding : 1px;
+	border : 1px solid #dddddd
+}
+.isiposting h2 {
+	font-size : 20px;
+	font-weight : bold;
+	color : #ffffff;
+	margin-top : 4px;
+	margin bottom : 3px;
+}
+.isiposting a {
+	text-decoration : none;
+}
+.isiposting a:hover{
+	color : yellow;
+}
+
+
+/* footer*/
+#footer {
+	width : 100%;
+	height : 40px;
+	margin-top : 5px;
+	padding-top : 20px;
+	background-color : blue;
+	color : white;
+	font-size : 12pt;
+	text-align : center;
+	position : relative;
+	clear : both;
+}
+
+
+.profil {
+	width : 200px;
+	height : 200px;
+	display : block;
+	float : right;
+	padding-right : 5px;
+}
+.profil h2 {
+	text-align : center;
+	color : maroon;
+	font-size : 20px;
+	font-weight : bold;
+}
+
+.isipostingan11 {
+	background-color : red;
+	width : 98%;
+	height : auto;
+	margin-bottom : 5px;
+	padding : 5px;
+}
+.isipostingan11 h2{
+	text-align : center;
+	color : black;
+	font-size : 20px;
+	font-weight : bold;
+}
+.gambarposting {
+	text-decoration: justify;
+	width : 230px;
+	height : 250px;
+	float : right;
+	margin : 5px 5px 5px 10px;
+}
+
+
+#kontak{
+	padding : 5px;
+	padding-top: 5px;
+	margin-top: 50px;
+	width : 99%;
+	height : 70%;
+	background-color : red;
+	position : relative;
+	margin: auto;
+	font-size : 20px;
+}
+.kontak {
+	background-color : none;
+	width : 100%;
+	height : auto;
+	margin-bottom : 5px;
+}
+.kontak h2 {
+	background-color : maroon;
+	height : 40px;
+	color : white;
+	text-align : center;
+	padding-top : 4px;
+	padding-bottom : 4px;
+}
+.tabelkontak {
+	color : black;
+	padding-top: 1px;
+	padding-left : 20px;
+}
+.kolom1 {
+	padding-top: 0px;
+	width :20%;
+}
+.kolom2 {
+	padding-top: 0px;
+	width :80%;
+}
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
